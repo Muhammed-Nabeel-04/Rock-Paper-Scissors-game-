@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.heading{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+button{
+  background-color: rgb(57, 58, 52);
+  border-radius: 100px;
+  border: solid white;
+  margin-left: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgb(200, 255, 0);
+}
+
+.js-score,.js-result{
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.js-move{
+  color: white;
+  font-weight: bold; 
+  font-size: 40px; 
+}
+
+.you-computermove-img{
+  height: 140px;
+}
+
+.move-image{
+  height: 100px;
+  padding: 20px;
+}
+
+.reset-button,.ai-play{
+  background-color: brown;
+  color: white;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset-button:hover{
+  background-color: red;
+  color: white;
+}
+
+.reset-button:active{
+  background-color:brown ;
+}
+
+.ai-play{
+  background-color: rgb(57, 58, 52);
+}
+
+.ai-play:hover{
+  background-color: rgb(97, 99, 91);
+}
+
+.ai-play:active{
+  background-color: rgb(57, 58, 52);
+  color: white;
+}
