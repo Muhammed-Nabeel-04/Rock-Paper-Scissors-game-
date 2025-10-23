@@ -11,7 +11,7 @@ const score = JSON.parse(localStorage.getItem('score')) || //the stored value.
 display();//function.
 
   function bothMove(yourMove,computerMove){
-    document.querySelector('.js-move').innerHTML = `Your Move <img class="you-computermove-img" src="/rock,paper.scissors 2/images/${yourMove}-emoji.png"> <img class="you-computermove-img" src="/rock,paper.scissors 2/images/${computerMove}-emoji.png"> Computer`;
+    document.querySelector('.js-move').innerHTML = `Your Move <img class="you-computermove-img" src="/images/${yourMove}-emoji.png"> <img class="you-computermove-img" src="/images/${computerMove}-emoji.png"> Computer`;
   }
 
   function reset(){
